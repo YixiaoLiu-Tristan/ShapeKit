@@ -189,8 +189,7 @@ benchmark cases.
 Set `vertebrae_engine: anatomical_refinement` in `config.yaml` to run the
 mask-only warm-up solution contributed by Yixiao Liu. This option preserves
 the standalone algorithm and uses the reference image's physical geometry.
-Existing engine defaults remain unchanged. See
-[configuration, usage, and tests](docs/vertebrae_refinement.md).
+Existing engine defaults remain unchanged.
 In addition to these general utilities, anatomical-structures-specific correction functions are available in [organs_postprocessing.py](organs_postprocessing.py).
 
 Please check the details in [functions guide book 📖.](docs/functions.md)
